@@ -1,0 +1,123 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black;
+    color: white;
+    font-size: 15pt;
+}
+.con1{
+    animation: yeah 1s ease-in-out;
+    background-image: url('../Images/1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+.con2{
+    animation: yeah 2s ease-in-out;
+    background-image: url(../Images/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    max-width: 100%;
+}
+.con3{
+    animation: yeah 3s ease-in-out;
+    background-image: url(../Images/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: auto;
+    max-width: 100%;
+}
+
+.con1r{
+    text-align: center;
+}
+.con1c1{
+    border-radius: 50px;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 250px;
+    margin-top: 550px;
+    background-color:rgba(0, 0, 0, 0.4);
+}
+.con1c2{
+    border-radius: 50px;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 250px;
+    margin-bottom: 100px;
+    background-color:rgba(0, 0, 0, 0.4);
+}
+
+.con1c1:hover{
+    transition: 1s ease-in-out;
+    animation: yeah 0.4s ease-in-out;
+    transform: translate(-50%, 50);
+    box-shadow: 5px 5px 0 0 white;
+    background: linear-gradient(to right, #373b44, #4286f4);
+    cursor: pointer;
+}
+
+.con1c2:hover{
+    transition: 2s ease-in-out;
+    animation: yeah 0.8s ease-in-out;
+    transform: translate(-50%, 50);
+    box-shadow: 5px 5px 0 0 white;
+    background: linear-gradient(to right, #373b44, #4286f4);
+    cursor: pointer;
+}
+.con2r{
+    padding: 200px;
+}
+.con2c{
+    text-align: center;
+    color: white;
+    font-size: 21pt;
+    background-color: rgba(0, 0, 0, 0.6);
+    word-spacing: 5pt;
+    line-height: 50pt;
+    text-indent: 60pt;
+    text-align: justify;
+    animation: yeah 2s ease-in-out;
+}
+#description2{
+    text-indent: 0;
+    text-align: center;
+}
+
+.con3r{
+    animation: yeah 2s ease-in-out;
+}
+
+.con3c{
+    text-align: center;
+    color: white;
+    font-size: 21pt;
+    background-color: rgba(0, 0, 0, 0.6);
+    word-spacing: 5pt;
+    line-height: 50pt;
+    animation: yeah 2s ease-in-out;
+}
+
+#second{
+    animation: yeah 2s ease-in-out;
+}
+
+#third{
+    animation: yeah 2s ease-in-out;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: white;
+}
+
+@keyframes yeah{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
